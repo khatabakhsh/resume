@@ -1,0 +1,29 @@
+.card {
+  font-family: "Source Code Pro", monospace;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex: content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.img {
+  width: 100px;
+  height: 100px;
+}
+strong {
+  font-size: 20px;
+}
+.strong {
+  /* width: 2rem; */
+  padding-top: 15%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");

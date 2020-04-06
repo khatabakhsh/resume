@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "title": "Amirhossein Khatabakhsh",
+      "subtitle": "Front-end Developer | Python Lover | Math Student",
+      "links": {
+        "github": "https://github.com/khatabakhsh",
+        "linkedin": "https://www.linkedin.com/in/khatabakhsh",
+        "twitter": "",
+        "stackoverflow": ""
+      }
+    },
+    {
+      "title": "About Me",
+      "paragraphs": [
+        "I was born in Tehran, on 1998, and now I'm in 4th term of Applied Mathematics Undergraduate with Computer Science Approach at Univercity Of Guilan.",
+        "I started programming in the beginning of Univercity with C++ and go away to OOP with Java. Then, Jump into Python and I fall in Love! and Javascript is so Sweet! but the only thing that matters is just Algorithm ;)"
+      ]
+    },
+    {
+      "title": "Skills",
+      "cards": {
+        "HTML5": "/logo/html5.png",
+        "CSS3": "/logo/css3.png",
+        "Javascript": "/logo/javascript.png",
+        "React": "/logo/react.png",
+        "Python": "/logo/python.png",
+        "git": "/logo/git.png"
+      }
+    }
+  ]
+}
