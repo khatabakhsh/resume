@@ -1,0 +1,18 @@
+nav {
+  font-family: "Yellowtail", cursive;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+nav > a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 3vmin;
+  padding: 5px;
+  margin: 2vh 2vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
