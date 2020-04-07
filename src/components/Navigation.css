@@ -7,11 +7,12 @@ nav {
   flex-direction: row;
 }
 nav > a {
+  border-style: groove;
   color: black;
   text-decoration: none;
   text-align: center;
   font-size: 3vmin;
-  padding: 5px;
+  padding: 1px;
   margin: 2vh 2vw;
 }
 

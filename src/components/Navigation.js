@@ -6,32 +6,29 @@ class Navigation extends Component {
   render() {
     return (
       <nav>
-        <a href="">
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={600}
-            delay={10}
-          >
-            About Me
-          </Link>
-        </a>
-        <a href="">
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={600}
-            delay={10}
-          >
-            Skills
-          </Link>
-        </a>
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={600}
+          delay={10}
+        >
+          <a href="">About Me</a>
+        </Link>
+
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={600}
+          delay={10}
+        >
+          <a href=""> Skills</a>
+        </Link>
       </nav>
     );
   }
