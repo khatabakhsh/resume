@@ -1,4 +1,5 @@
 section {
+  font-family: "Comic Neue", cursive;
   margin: auto;
   width: calc(100vw - (100vw - 100%));
   height: 100vh;
