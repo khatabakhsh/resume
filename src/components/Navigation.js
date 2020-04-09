@@ -7,6 +7,7 @@ class Navigation extends Component {
     return (
       <nav>
         <Link
+          className="link aboutme"
           activeClass="active"
           to="about"
           spy={true}
@@ -15,10 +16,13 @@ class Navigation extends Component {
           duration={600}
           delay={10}
         >
-          <a href="">About Me</a>
+          <button href="" className="a aboutme">
+            About Me
+          </button>
         </Link>
 
         <Link
+          className="link skills"
           activeClass="active"
           to="skills"
           spy={true}
@@ -27,7 +31,9 @@ class Navigation extends Component {
           duration={600}
           delay={10}
         >
-          <a href=""> Skills</a>
+          <button href="" className="a skill">
+            Skills
+          </button>
         </Link>
       </nav>
     );
