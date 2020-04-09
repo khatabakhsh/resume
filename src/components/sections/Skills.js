@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Element } from "react-scroll";
+import { Element } from "react-scroll";
 import Fullpage from "../Fullpage.js";
 import SkillCard from "../SkillCard.js";
 import "./Skills.css";

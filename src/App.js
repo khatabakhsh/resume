@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <main className="App">
-        <Navigation />
+        <Navigation data={Data} />
         <Myself data={Data.sections[0]} />
         <About data={Data.sections[1]} />
         <Skills data={Data.sections[2]} />

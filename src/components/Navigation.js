@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Element } from "react-scroll";
+import { Link } from "react-scroll";
 import "./Navigation.css";
 
 class Navigation extends Component {
@@ -16,9 +16,7 @@ class Navigation extends Component {
           duration={600}
           delay={10}
         >
-          <button href="" className="a aboutme">
-            About Me
-          </button>
+          <button>{this.props.data.sections[1].title}</button>
         </Link>
 
         <Link
@@ -31,9 +29,7 @@ class Navigation extends Component {
           duration={600}
           delay={10}
         >
-          <button href="" className="a skill">
-            Skills
-          </button>
+          <button>{this.props.data.sections[2].title}</button>
         </Link>
       </nav>
     );
