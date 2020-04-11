@@ -1,0 +1,39 @@
+article {
+  font-family: "Comic Neue", cursive;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
+  transform: translateY(16vh);
+}
+h1 {
+  font-size: 7vmin;
+}
+h2 {
+  font-size: 2vmax;
+}
+h3 {
+  font-size: 7vmin;
+}
+p {
+  padding-left: 15vw;
+  padding-right: 15vw;
+  font-size: 3.5vmin;
+  line-height: 1.7;
+  text-align: left;
+}
+.social-icon-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+}
+.card-wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}

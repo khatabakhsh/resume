@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { Element } from "react-scroll";
+
 import Fullpage from "../Fullpage.js";
-import "./About.css";
+import Article from "../Article";
+import DownIcon from "../DownIcon.js";
 
 class About extends Component {
   render() {
@@ -11,11 +13,12 @@ class About extends Component {
     return [
       <Element name="about" />,
       <Fullpage className="second">
-        <article>
+        <Article>
           <h3>{title}</h3>
           <p>{p1}</p>
           <p>{p2}</p>
-        </article>
+        </Article>
+        <DownIcon arrow="UP" link="skills" />
       </Fullpage>,
     ];
   }

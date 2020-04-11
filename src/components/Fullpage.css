@@ -6,7 +6,8 @@ section {
   display: flex;
   flex: auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  align-content: center;
   background-color: steelblue;
 }
