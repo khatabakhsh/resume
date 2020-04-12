@@ -5,7 +5,10 @@ class Fullpage extends Component {
   render() {
     const { children } = this.props;
     return (
-      <section className={`fullpage ${this.props.className || ""}`}>
+      <section
+        style={{ backgroundColor: this.props.theme.back }}
+        className={`fullpage ${this.props.className || ""}`}
+      >
         {children}
       </section>
     );

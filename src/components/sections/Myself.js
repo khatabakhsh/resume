@@ -13,14 +13,17 @@ class Myself extends Component {
     const links = this.props.data.links;
     return [
       <Element name="myself" />,
-      <Fullpage className="first">
+      <Fullpage className="first" theme={this.props.theme}>
         <Article>
-          <h1 className="title">{title}</h1>
-          <h2 className="subtitle">{subtitle}</h2>
+          <h1 style={{ color: this.props.theme.obj }}>{title}</h1>
+          <h2 style={{ color: this.props.theme.obj }}>{subtitle}</h2>
           <div className="social-icon-list">
             {Object.keys(links).map((k) => {
               return (
-                <div className="social-icon" style={{ margin: "4vmin", padding: "0px" }}>
+                <div
+                  className="social-icon"
+                  style={{ margin: "4vmin", padding: "0px" }}
+                >
                   <SocialMediaIconsReact
                     icon={k}
                     url={links[k]}
@@ -33,7 +36,7 @@ class Myself extends Component {
             })}
           </div>
         </Article>
-        <DownIcon arrow="UP" link="about" />
+        <DownIcon arrow="UP" link="about" theme={this.props.theme} />
       </Fullpage>,
     ];
   }

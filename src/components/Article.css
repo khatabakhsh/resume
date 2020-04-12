@@ -1,4 +1,5 @@
 article {
+  z-index: 2;
   font-family: "Comic Neue", cursive;
   text-align: center;
   display: flex;
@@ -18,6 +19,7 @@ h3 {
   font-size: 7vmin;
 }
 p {
+  z-index: 2;
   padding-left: 15vw;
   padding-right: 15vw;
   font-size: 3.5vmin;

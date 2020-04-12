@@ -2,7 +2,7 @@
   "sections": [
     {
       "title": "Amirhossein Khatabakhsh",
-      "subtitle": "Front-end Developer | Python Lover | Math Student",
+      "subtitle": "Front-end Developer | Math Student",
       "links": {
         "github": "https://github.com/khatabakhsh",
         "linkedin": "https://www.linkedin.com/in/khatabakhsh",
@@ -27,6 +27,28 @@
         "Python": "/logo/python.png",
         "git": "/logo/git.png"
       }
+    }
+  ],
+  "theme": [
+    {
+      "back": "#192965",
+      "obj": "#f0efef"
+    },
+    {
+      "back": "#4d4646",
+      "obj": "#7fcd91"
+    },
+    {
+      "back": "#82E0AA",
+      "obj": "#186A3B"
+    },
+    {
+      "back": "#186A3B",
+      "obj": "#ABEBC6"
+    },
+    {
+      "back": "#842833",
+      "obj": "#F2D7D5"
     }
   ]
 }

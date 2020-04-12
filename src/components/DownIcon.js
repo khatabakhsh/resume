@@ -12,6 +12,7 @@ class DownIcon extends Component {
     const icon = angle === "UP" ? faAngleDown : faAngleDoubleUp;
     return (
       <Link
+        style={{ zIndex: "10" }}
         activeClass="active"
         to={this.props.link}
         spy={true}
@@ -22,10 +23,13 @@ class DownIcon extends Component {
       >
         <FontAwesomeIcon
           icon={icon}
-          style={{ transform: "translateY(-2vh)", cursor: "pointer" }}
+          style={{
+            transform: "translateY(-2vh)",
+            cursor: "pointer",
+            color: this.props.theme.obj,
+          }}
           size="lg"
           fixedWidth
-          color="black"
         />
       </Link>
     );

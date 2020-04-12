@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTshirt } from "@fortawesome/free-solid-svg-icons";
 import "./Navigation.css";
 
 class Navigation extends Component {
@@ -10,6 +8,7 @@ class Navigation extends Component {
       <nav className="nav">
         <div>
           <Link
+            style={{ zIndex: "10" }}
             className="link aboutme"
             activeClass="active"
             to="about"
@@ -19,10 +18,13 @@ class Navigation extends Component {
             duration={600}
             delay={10}
           >
-            <a className="nav-btn">{this.props.data.sections[1].title}</a>
+            <a style={{ color: this.props.theme.obj }} className="nav-btn">
+              {this.props.data.sections[1].title}
+            </a>
           </Link>
 
           <Link
+            style={{ zIndex: "10" }}
             className="link skills"
             activeClass="active"
             to="skills"
@@ -32,17 +34,11 @@ class Navigation extends Component {
             duration={600}
             delay={10}
           >
-            <a className="nav-btn">{this.props.data.sections[2].title}</a>
+            <a style={{ color: this.props.theme.obj }} className="nav-btn">
+              {this.props.data.sections[2].title}
+            </a>
           </Link>
         </div>
-        <FontAwesomeIcon
-          // style={{width: "100px"}}
-          icon={faTshirt}
-          className="nav-btn tshirt"
-          size="lg"
-          fixedWidth
-          color="black"
-        />
       </nav>
     );
   }

@@ -1,11 +1,12 @@
 .nav {
+  z-index: 10;
   position: fixed;
   display: flex;
   flex: auto;
   flex-direction: row;
   align-items: center;
   align-content: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   width: 100%;
   height: 5vmax;
 }
@@ -20,9 +21,6 @@
 .link {
   padding: 0px;
   margin: 1.5vw;
-}
-.tshirt {
-  margin-right: 2.5vw;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap");

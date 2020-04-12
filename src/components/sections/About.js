@@ -11,14 +11,14 @@ class About extends Component {
     const p1 = this.props.data.paragraphs[0];
     const p2 = this.props.data.paragraphs[1];
     return [
-      <Element name="about" />,
-      <Fullpage className="second">
+      <Element name="about" theme={this.props.theme} />,
+      <Fullpage className="second" theme={this.props.theme}>
         <Article>
-          <h3>{title}</h3>
-          <p>{p1}</p>
-          <p>{p2}</p>
+          <h3 style={{ color: this.props.theme.obj }}>{title}</h3>
+          <p style={{ color: this.props.theme.obj }}>{p1}</p>
+          <p style={{ color: this.props.theme.obj }}>{p2}</p>
         </Article>
-        <DownIcon arrow="UP" link="skills" />
+        <DownIcon arrow="UP" link="skills" theme={this.props.theme} />
       </Fullpage>,
     ];
   }

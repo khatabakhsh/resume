@@ -1,4 +1,5 @@
 section {
+  z-index: 2;
   font-family: "Comic Neue", cursive;
   margin: auto;
   width: calc(100vw - (100vw - 100%));
