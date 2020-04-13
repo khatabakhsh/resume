@@ -18,9 +18,9 @@ class Navigation extends Component {
             duration={600}
             delay={10}
           >
-            <a style={{ color: this.props.theme.obj }} className="nav-btn">
+            <label style={{ color: this.props.theme.obj }} className="nav-btn">
               {this.props.data.sections[1].title}
-            </a>
+            </label>
           </Link>
 
           <Link
@@ -34,9 +34,9 @@ class Navigation extends Component {
             duration={600}
             delay={10}
           >
-            <a style={{ color: this.props.theme.obj }} className="nav-btn">
+            <label style={{ color: this.props.theme.obj }} className="nav-btn">
               {this.props.data.sections[2].title}
-            </a>
+            </label>
           </Link>
         </div>
       </nav>
