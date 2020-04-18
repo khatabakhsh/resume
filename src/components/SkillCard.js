@@ -6,7 +6,7 @@ class SkillCard extends Component {
     return (
       <div className="card">
         <div className="img">
-          <img src={this.props.cards[this.props.className]} />
+          <img src={this.props.cards[this.props.className]} alt=""/>
         </div>
         <div className="strong">
           <strong style={{ color: "black" }}>

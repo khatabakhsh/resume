@@ -26,6 +26,10 @@ class App extends Component {
     }
     r = r_new;
     this.setState(Data.theme[r]);
+    let elements = document.getElementsByClassName("___snowStorm___");
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.color = Data.theme[r].obj;
+    }
   };
   render() {
     return (
@@ -49,7 +53,7 @@ class App extends Component {
           animationInterval="50"
           flakesMax="32"
           flakesMaxActive="16"
-          excludeMobile={true}
+          excludeMobile={false}
           followMouse={false}
           snowStick={false}
           vMaxY="5"
