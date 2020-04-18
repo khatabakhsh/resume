@@ -9,11 +9,10 @@ import Navigation from "./components/Navigation";
 import Data from "./data.json";
 import "./App.css";
 
-var r; //global random variable
+var r = 0; //global random variable
 class App extends Component {
   constructor(props) {
     super(props);
-    r = App.generateRandom();
     this.state = Data.theme[r];
   }
   static generateRandom() {
