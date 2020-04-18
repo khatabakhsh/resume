@@ -20,12 +20,12 @@
     {
       "title": "Skills",
       "cards": {
-        "HTML5": "/logo/html5.png",
-        "CSS3": "/logo/css3.png",
-        "Javascript": "/logo/javascript.png",
-        "React": "/logo/react.png",
-        "Python": "/logo/python.png",
-        "git": "/logo/git.png"
+        "HTML5": "logo/html5.png",
+        "CSS3": "logo/css3.png",
+        "Javascript": "logo/javascript.png",
+        "React": "logo/react.png",
+        "Python": "logo/python.png",
+        "git": "logo/git.png"
       }
     }
   ],
@@ -49,6 +49,10 @@
     {
       "back": "#842833",
       "obj": "#F2D7D5"
+    },
+    {
+      "back": "#ffb0cd",
+      "obj": "#522d5b"
     }
   ]
 }
